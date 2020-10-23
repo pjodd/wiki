@@ -16,7 +16,7 @@ uppkoppling.
 På denna wiki skriver vi om våra installationer, tekniken och
 föreningen.
 
-### Några ofta besöka sidor:
+### Några ofta besöka sidor
 
 - [Vanliga frågor och svar](vanliga_frågor_och_svar.html)
 - [Använd vårt WiFi](använd_vårt_wifi.html)
