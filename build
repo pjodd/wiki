@@ -19,6 +19,7 @@ pandoc() {
           -M linkcolor=#191959 \
           -M backgroundcolor=#fafafa \
           --include-before-body nav.html \
+          --include-after-body footer.html \
           --lua-filter filters.lua \
           "$@"
 }
