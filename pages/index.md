@@ -2,7 +2,7 @@
 title: Huvudsida
 ---
 
-Välkommen till [Pjodd](https://pjodd.se)!
+Välkommen till [Pjodd](https://pjodd.se)s wiki!
 
 Vi är en ideell förening som vill bygga ett fritt och gratis
 mesh-nätverk med internetuppkoppling via WiFi över hela Malmö. För de

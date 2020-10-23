@@ -18,6 +18,7 @@ pandoc() {
           -M fontcolor=#191919 \
           -M linkcolor=#191959 \
           -M backgroundcolor=#fafafa \
+          -M title-suffix="Pjodds wiki" \
           --include-before-body nav.html \
           --include-after-body footer.html \
           --lua-filter filters.lua \
