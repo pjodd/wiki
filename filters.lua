@@ -12,7 +12,7 @@ return {
   {
     -- open external links in new tab/window
     Link = function (el)
-      if has(el.classes, "uri") then
+      if has(el.attr.classes, "uri") or el.target:match("^https?:") then
         el.attr.attributes.target = "_blank"
         el.attr.attributes.rel = "noopener"
       end
