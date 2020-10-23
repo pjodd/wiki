@@ -1,0 +1,9 @@
+---
+title: Föreningsbidrag
+---
+
+Det finns en del bidrag föreningen kan söka för att köpa routers.
+
+<http://malmo.se/Kultur--fritid/Idrott--fritid/Foreningsliv/Registrera-forening-hos-fritidsforvaltningen.html>
+
+<http://svenskbidragsformedling.se/lankar/>

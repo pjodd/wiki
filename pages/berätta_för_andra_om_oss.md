@@ -1,0 +1,17 @@
+---
+title: Berätta för andra om oss
+---
+
+*Denna sida behöver copy och är på inget sätt färdig.*
+
+Desto fler som känner till att Pjodd finns, ju fler kommer använda vårt
+nätverk. Det tycker vi är bra. Det skapar intresse för att bygga ut
+nätverkets täckningsområde. I slutändan vill vi ha täckning överallt.
+
+Det absolut bästa sättet att nå ut till så många som möjligt och berätta
+om vår existens är att [placera en ny
+Pjodd-router](bygg_ut_vårt_nät.html) så att nätet blir synligt.
+
+Du kan även gilla oss på Facebook, berätta för dina vänner om att det
+existerar... bla bla. Vi måste hitta på lite alternativa sätt att
+marknadsföra oss. Stickers? Skriva gärna kommentarer här.

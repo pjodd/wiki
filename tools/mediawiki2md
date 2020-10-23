@@ -1,0 +1,24 @@
+#!/bin/bash
+set -euo pipefail
+
+cd "${0%/*}"
+
+outd="../pages"
+mkdir -p "$outd"
+
+for mwf in ../mediawiki-readonly/*; do
+  title="${mwf##*/}"
+  outf="${title,,}"
+  outf="$outd/${outf// /_}.md"
+  if [[ -e "${outf}" ]]; then
+    printf "%s exists, skipping\n" "${outf##*/}"
+    continue
+  fi
+  pandoc >"$outf" \
+         --standalone -M "title=$title" \
+         -f mediawiki -t markdown \
+         --shift-heading-level-by=1 --atx-headers \
+         --lua-filter ./wikilink-transform.lua \
+         "$mwf"
+  printf "wrote %s\n" "${outf##*/}"
+done
