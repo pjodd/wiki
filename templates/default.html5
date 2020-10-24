@@ -38,7 +38,7 @@ $endfor$
 <nav>
   <div style="display:flex; align-items:center; justify-content: space-between">
     <span>
-      <a title="Gå till huvudsidan" href="/"><img src="images/pjodd-wiki-logo.png" /></a>
+      <a title="Gå till huvudsidan" href="/"><img alt="Pjodd logo" src="images/pjodd-wiki-logo.png" /></a>
     </span>
     <span>
       <a title="Redigera denna sida på Github" href="https://github.com/pjodd/wiki/edit/master/$sourcefile$">redigera</a>
