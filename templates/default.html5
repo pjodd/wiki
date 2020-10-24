@@ -35,6 +35,17 @@ $endfor$
 $for(include-before)$
 $include-before$
 $endfor$
+<nav>
+  <div style="display:flex; align-items:center; justify-content: space-between">
+    <span>
+      <a title="Gå till huvudsidan" href="/"><img src="images/pjodd-wiki-logo.png" /></a>
+    </span>
+    <span>
+      <a title="Redigera denna sida på Github" href="https://github.com/pjodd/wiki/edit/master/$sourcefile$">redigera</a>
+      ｜ <a title="Gå till innehållssidan" href="innehåll.html">innehåll</a>
+    </span>
+  </div>
+</nav>
 $if(title)$
 <header id="title-block-header">
 <h1 class="title">$title$</h1>
