@@ -60,7 +60,7 @@ Nästan alla routers som klarar av att köra [OpenWRT](https://openwrt.org/)
 klarar också av att vara en Pjodd-router. Det handlar om hundratals
 olika modeller.
 
-###### TL-MR3020
+###### TL-MR3020 {#TL-MR3020}
 
 Den minsta modellen av inomhusrouter vi använder, TP-Link TL-MR3020. Den
 är extremt liten, har inbygd antenn, drar nästan ingen som helst ström
