@@ -41,7 +41,7 @@ $endfor$
       <a title="Gå till huvudsidan" href="/"><img style="border-bottom: 1px solid" alt="Pjodd logo" src="images/pjodd-wiki-logo.png" /></a>
     </span>
     <span>
-      <a title="Redigera denna sida på Github" href="https://github.com/pjodd/wiki/edit/master/$sourcefile$">redigera</a>
+      <a title="Redigera denna sida på Github" href="https://github.com/pjodd/wiki/blob/master/$sourcefile$">redigera</a>
       &nbsp;|&nbsp; <a title="Gå till innehållssidan" href="innehåll.html">innehåll</a>
     </span>
   </div>
