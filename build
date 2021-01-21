@@ -34,7 +34,7 @@ touch "$contentsmdf"
 for mdf in pages/*.md; do
   outf="${mdf%.md}.html"
   outf="$outd/${outf#pages/}"
-  pandoc >"$outf" "$mdf"
+  pandoc -M build_showedit=true >"$outf" "$mdf"
   printf "wrote %s\n" "$outf"
 
   title="$(sed -n "s/^title: \(.*\)/\1/p" "$mdf" | head -n1)"
